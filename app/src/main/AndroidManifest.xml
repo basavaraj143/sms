@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.sukany.sms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/subscribe"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sukany.sms.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sukany.sms.SecondActivity"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.IndividualActivity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.IndividualDetailActivity"
+            android:label="Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.GroupActivity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.GroupDetailActivity"
+            android:label="Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.CourseDetailActivity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.ChangePassword"
+            android:label="Change Password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.AddNewStudent"
+            android:label="Add New Student"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sukany.sms.Prefs"
+            android:label="Preferences"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.PREFS" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>
